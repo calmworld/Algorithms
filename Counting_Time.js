@@ -18,6 +18,8 @@ addUpTo(1000000000); //ad up to a billion
 var t2 = performance.now(); //check performance again
 console.log(`Time Elapsed: ${(t2 - t1) / 1000} seconds.`); //We divide by 1000 because performance.now() is in milliseconds and we want to work in seconds
 
+//Counting Operations: 5+
+
 //=========================================================================//
 
 function addUpToBetter(n) {
@@ -34,3 +36,5 @@ var t1 = performance.now();
 addUpToBetter(1000000000); //ad up to a billion
 var t2 = performance.now(); //check performance again after calling the function
 console.log(`Time Elapsed: ${(t2 - t1) / 1000} seconds.`); //We divide by 1000 because performance.now() is in milliseconds and we want to work in seconds
+
+//Counting Operations: 3
